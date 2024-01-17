@@ -159,7 +159,7 @@ var noneByRight = require( '@stdlib/array-base-none-by-right' );
 
 var x = bernoulli( 10, 0.1, {
     'dtype': 'int8'
-} );
+});
 // returns <Int8Array>
 
 var out = noneByRight( x, naryFunction( isPositiveInteger, 1 ) );
@@ -225,8 +225,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-none-by-right.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-none-by-right
 
-[test-image]: https://github.com/stdlib-js/array-base-none-by-right/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/array-base-none-by-right/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/array-base-none-by-right/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-base-none-by-right/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-none-by-right/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-none-by-right?branch=main
